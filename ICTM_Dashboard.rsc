@@ -66,7 +66,7 @@ DBox "SCAG Dashboard"
 		dbox_name = "SCAG Dashboard"
 		model_title = "SCAG_Subregion Model"
 		stages = 1
-		logo_bmp = "C:\\Program Files\\TransCAD 6.0\\bmp\\SBTAM_Dashboard_logo.bmp"
+		logo_bmp = "C:\\Program Files\\TransCAD 6.0\\bmp\\ICTM_Dashboard_logo.bmp"
 		
 		{ModelInfo, StageInfo, MacroInfo,} = RunMacro("TCP Load Model", model_title)
 		model_table = ModelInfo[1]
